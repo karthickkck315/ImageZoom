@@ -1,0 +1,440 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		75A7F9A91480B26900510F63 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75A7F9A81480B26900510F63 /* UIKit.framework */; };
+		75A7F9AB1480B26900510F63 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75A7F9AA1480B26900510F63 /* Foundation.framework */; };
+		75A7F9B11480B26900510F63 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 75A7F9AF1480B26900510F63 /* InfoPlist.strings */; };
+		75A7F9B31480B26900510F63 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 75A7F9B21480B26900510F63 /* main.m */; };
+		75A7F9B71480B26900510F63 /* ImageZoomAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 75A7F9B61480B26900510F63 /* ImageZoomAppDelegate.m */; };
+		75A7F9BA1480B26900510F63 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75A7F9B81480B26900510F63 /* MainStoryboard.storyboard */; };
+		75A7F9BD1480B26900510F63 /* ImageZoomViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75A7F9BC1480B26900510F63 /* ImageZoomViewController.m */; };
+		75A7F9C51480B26900510F63 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75A7F9C41480B26900510F63 /* SenTestingKit.framework */; };
+		75A7F9C61480B26900510F63 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75A7F9A81480B26900510F63 /* UIKit.framework */; };
+		75A7F9C71480B26900510F63 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75A7F9AA1480B26900510F63 /* Foundation.framework */; };
+		75A7F9CF1480B26900510F63 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 75A7F9CD1480B26900510F63 /* InfoPlist.strings */; };
+		75A7F9D21480B26900510F63 /* ImageZoomTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 75A7F9D11480B26900510F63 /* ImageZoomTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		75A7F9C81480B26900510F63 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 75A7F99B1480B26900510F63 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 75A7F9A31480B26900510F63;
+			remoteInfo = ImageZoom;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		75A7F9A41480B26900510F63 /* ImageZoom.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ImageZoom.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		75A7F9A81480B26900510F63 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		75A7F9AA1480B26900510F63 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		75A7F9AE1480B26900510F63 /* ImageZoom-Info.plist */ = {isa = PBXFileReference; path = "ImageZoom-Info.plist"; sourceTree = "<group>"; };
+		75A7F9B01480B26900510F63 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		75A7F9B21480B26900510F63 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		75A7F9B41480B26900510F63 /* ImageZoom-Prefix.pch */ = {isa = PBXFileReference; path = "ImageZoom-Prefix.pch"; sourceTree = "<group>"; };
+		75A7F9B51480B26900510F63 /* ImageZoomAppDelegate.h */ = {isa = PBXFileReference; path = ImageZoomAppDelegate.h; sourceTree = "<group>"; };
+		75A7F9B61480B26900510F63 /* ImageZoomAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImageZoomAppDelegate.m; sourceTree = "<group>"; };
+		75A7F9B91480B26900510F63 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		75A7F9BB1480B26900510F63 /* ImageZoomViewController.h */ = {isa = PBXFileReference; path = ImageZoomViewController.h; sourceTree = "<group>"; };
+		75A7F9BC1480B26900510F63 /* ImageZoomViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImageZoomViewController.m; sourceTree = "<group>"; };
+		75A7F9C31480B26900510F63 /* ImageZoomTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ImageZoomTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		75A7F9C41480B26900510F63 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		75A7F9CC1480B26900510F63 /* ImageZoomTests-Info.plist */ = {isa = PBXFileReference; path = "ImageZoomTests-Info.plist"; sourceTree = "<group>"; };
+		75A7F9CE1480B26900510F63 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		75A7F9D01480B26900510F63 /* ImageZoomTests.h */ = {isa = PBXFileReference; path = ImageZoomTests.h; sourceTree = "<group>"; };
+		75A7F9D11480B26900510F63 /* ImageZoomTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImageZoomTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		75A7F9A11480B26900510F63 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75A7F9A91480B26900510F63 /* UIKit.framework in Frameworks */,
+				75A7F9AB1480B26900510F63 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75A7F9BF1480B26900510F63 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75A7F9C51480B26900510F63 /* SenTestingKit.framework in Frameworks */,
+				75A7F9C61480B26900510F63 /* UIKit.framework in Frameworks */,
+				75A7F9C71480B26900510F63 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		75A7F9991480B26900510F63 = {
+			isa = PBXGroup;
+			children = (
+				75A7F9AC1480B26900510F63 /* ImageZoom */,
+				75A7F9CA1480B26900510F63 /* ImageZoomTests */,
+				75A7F9A71480B26900510F63 /* Frameworks */,
+				75A7F9A51480B26900510F63 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		75A7F9A51480B26900510F63 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				75A7F9A41480B26900510F63 /* ImageZoom.app */,
+				75A7F9C31480B26900510F63 /* ImageZoomTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		75A7F9A71480B26900510F63 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				75A7F9A81480B26900510F63 /* UIKit.framework */,
+				75A7F9AA1480B26900510F63 /* Foundation.framework */,
+				75A7F9C41480B26900510F63 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		75A7F9AC1480B26900510F63 /* ImageZoom */ = {
+			isa = PBXGroup;
+			children = (
+				75A7F9B51480B26900510F63 /* ImageZoomAppDelegate.h */,
+				75A7F9B61480B26900510F63 /* ImageZoomAppDelegate.m */,
+				75A7F9B81480B26900510F63 /* MainStoryboard.storyboard */,
+				75A7F9BB1480B26900510F63 /* ImageZoomViewController.h */,
+				75A7F9BC1480B26900510F63 /* ImageZoomViewController.m */,
+				75A7F9AD1480B26900510F63 /* Supporting Files */,
+			);
+			path = ImageZoom;
+			sourceTree = "<group>";
+		};
+		75A7F9AD1480B26900510F63 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				75A7F9AE1480B26900510F63 /* ImageZoom-Info.plist */,
+				75A7F9AF1480B26900510F63 /* InfoPlist.strings */,
+				75A7F9B21480B26900510F63 /* main.m */,
+				75A7F9B41480B26900510F63 /* ImageZoom-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		75A7F9CA1480B26900510F63 /* ImageZoomTests */ = {
+			isa = PBXGroup;
+			children = (
+				75A7F9D01480B26900510F63 /* ImageZoomTests.h */,
+				75A7F9D11480B26900510F63 /* ImageZoomTests.m */,
+				75A7F9CB1480B26900510F63 /* Supporting Files */,
+			);
+			path = ImageZoomTests;
+			sourceTree = "<group>";
+		};
+		75A7F9CB1480B26900510F63 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				75A7F9CC1480B26900510F63 /* ImageZoomTests-Info.plist */,
+				75A7F9CD1480B26900510F63 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		75A7F9A31480B26900510F63 /* ImageZoom */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 75A7F9D51480B26900510F63 /* Build configuration list for PBXNativeTarget "ImageZoom" */;
+			buildPhases = (
+				75A7F9A01480B26900510F63 /* Sources */,
+				75A7F9A11480B26900510F63 /* Frameworks */,
+				75A7F9A21480B26900510F63 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ImageZoom;
+			productName = ImageZoom;
+			productReference = 75A7F9A41480B26900510F63 /* ImageZoom.app */;
+			productType = "com.apple.product-type.application";
+		};
+		75A7F9C21480B26900510F63 /* ImageZoomTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 75A7F9D81480B26900510F63 /* Build configuration list for PBXNativeTarget "ImageZoomTests" */;
+			buildPhases = (
+				75A7F9BE1480B26900510F63 /* Sources */,
+				75A7F9BF1480B26900510F63 /* Frameworks */,
+				75A7F9C01480B26900510F63 /* Resources */,
+				75A7F9C11480B26900510F63 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				75A7F9C91480B26900510F63 /* PBXTargetDependency */,
+			);
+			name = ImageZoomTests;
+			productName = ImageZoomTests;
+			productReference = 75A7F9C31480B26900510F63 /* ImageZoomTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		75A7F99B1480B26900510F63 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 75A7F99E1480B26900510F63 /* Build configuration list for PBXProject "ImageZoom" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 75A7F9991480B26900510F63;
+			productRefGroup = 75A7F9A51480B26900510F63 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				75A7F9A31480B26900510F63 /* ImageZoom */,
+				75A7F9C21480B26900510F63 /* ImageZoomTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		75A7F9A21480B26900510F63 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75A7F9B11480B26900510F63 /* InfoPlist.strings in Resources */,
+				75A7F9BA1480B26900510F63 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75A7F9C01480B26900510F63 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75A7F9CF1480B26900510F63 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		75A7F9C11480B26900510F63 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		75A7F9A01480B26900510F63 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75A7F9B31480B26900510F63 /* main.m in Sources */,
+				75A7F9B71480B26900510F63 /* ImageZoomAppDelegate.m in Sources */,
+				75A7F9BD1480B26900510F63 /* ImageZoomViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75A7F9BE1480B26900510F63 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75A7F9D21480B26900510F63 /* ImageZoomTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		75A7F9C91480B26900510F63 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 75A7F9A31480B26900510F63 /* ImageZoom */;
+			targetProxy = 75A7F9C81480B26900510F63 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		75A7F9AF1480B26900510F63 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				75A7F9B01480B26900510F63 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		75A7F9B81480B26900510F63 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				75A7F9B91480B26900510F63 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		75A7F9CD1480B26900510F63 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				75A7F9CE1480B26900510F63 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		75A7F9D31480B26900510F63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		75A7F9D41480B26900510F63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		75A7F9D61480B26900510F63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ImageZoom/ImageZoom-Prefix.pch";
+				INFOPLIST_FILE = "ImageZoom/ImageZoom-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		75A7F9D71480B26900510F63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ImageZoom/ImageZoom-Prefix.pch";
+				INFOPLIST_FILE = "ImageZoom/ImageZoom-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		75A7F9D91480B26900510F63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ImageZoom.app/ImageZoom";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ImageZoom/ImageZoom-Prefix.pch";
+				INFOPLIST_FILE = "ImageZoomTests/ImageZoomTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		75A7F9DA1480B26900510F63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ImageZoom.app/ImageZoom";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ImageZoom/ImageZoom-Prefix.pch";
+				INFOPLIST_FILE = "ImageZoomTests/ImageZoomTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		75A7F99E1480B26900510F63 /* Build configuration list for PBXProject "ImageZoom" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75A7F9D31480B26900510F63 /* Debug */,
+				75A7F9D41480B26900510F63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		75A7F9D51480B26900510F63 /* Build configuration list for PBXNativeTarget "ImageZoom" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75A7F9D61480B26900510F63 /* Debug */,
+				75A7F9D71480B26900510F63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		75A7F9D81480B26900510F63 /* Build configuration list for PBXNativeTarget "ImageZoomTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75A7F9D91480B26900510F63 /* Debug */,
+				75A7F9DA1480B26900510F63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 75A7F99B1480B26900510F63 /* Project object */;
+}
